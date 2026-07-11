@@ -9,7 +9,7 @@ cask "microsoft-teams" do
   homepage "https://www.microsoft.com/en/microsoft-teams/group-chat-software/"
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   pkg "MicrosoftTeams.pkg"
 

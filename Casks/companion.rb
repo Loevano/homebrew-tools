@@ -8,7 +8,7 @@ cask "companion" do
   homepage "https://bitfocus.io/companion"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "Companion.app"
 end

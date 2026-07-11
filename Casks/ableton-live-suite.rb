@@ -8,7 +8,7 @@ cask "ableton-live-suite" do
   homepage "https://www.ableton.com/en/live/"
 
   auto_updates true
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "Ableton Live 12 Suite.app"
 

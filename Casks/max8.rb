@@ -7,7 +7,5 @@ cask "max8" do
   desc "Visual programming environment for music and multimedia"
   homepage "https://cycling74.com/downloads/older"
 
-  depends_on macos: ">= :sierra"
-
   app "Max.app", target: "Max 8.app"
 end

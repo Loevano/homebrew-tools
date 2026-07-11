@@ -7,7 +7,7 @@ cask "rme-madiface-usb-driver" do
   desc "RME USB Series DriverKit driver for MADIface USB and related interfaces"
   homepage "https://rme-audio.de/downloads.html"
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   pkg "Fireface USB DK #{version.no_dots}.pkg"
 

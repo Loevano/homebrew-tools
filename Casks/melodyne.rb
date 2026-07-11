@@ -8,8 +8,6 @@ cask "melodyne" do
   desc "Pitch and time editing software"
   homepage "https://www.celemony.com/en/trial"
 
-  depends_on macos: ">= :sierra"
-
   pkg "Melodyne.#{version}.pkg"
 
   uninstall quit:    "com.celemony.melodyne.standalone",
