@@ -7,5 +7,12 @@ cask "room-eq-wizard" do
   desc "Room acoustics measurement and analysis software"
   homepage "https://www.roomeqwizard.com/"
 
-  app "REW.app"
+  installer script: {
+    executable: "REW Installer.app/Contents/MacOS/JavaApplicationStub",
+    args:       ["-q", "-dir", "/Applications/REW"],
+    sudo:       true,
+  }
+
+  uninstall quit:   "roomeqwizard.launcher",
+            delete: "/Applications/REW"
 end
