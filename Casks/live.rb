@@ -7,7 +7,6 @@ cask "live" do
   desc "Live MacBook cask collection"
   homepage "https://github.com/Loevano/homebrew-tools"
 
-  depends_on cask: "loevano/tools/ableton-live-suite"
   depends_on cask: "loevano/tools/dante-controller"
   depends_on cask: "loevano/tools/dante-virtual-soundcard"
   depends_on cask: "loevano/tools/ilok-license-manager"
