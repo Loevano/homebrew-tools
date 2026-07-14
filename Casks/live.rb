@@ -13,6 +13,5 @@ cask "live" do
   depends_on cask: "loevano/tools/ilok-license-manager"
   depends_on cask: "loevano/tools/rme-madiface-usb-driver"
   depends_on cask: "loevano/tools/totalmix-fx"
-  depends_on cask: "loevano/tools/touchosc"
   depends_on cask: "reaper"
 end
