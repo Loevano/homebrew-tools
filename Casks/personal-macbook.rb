@@ -13,6 +13,7 @@ cask "personal-macbook" do
 
   depends_on cask: "visual-studio-code"
   depends_on cask: "whatsapp"
+  depends_on cask: "loevano/tools/dropbox"
   depends_on cask: "loevano/tools/brave-browser"
   depends_on cask: "loevano/tools/fabfilter"
   depends_on cask: "loevano/tools/ableton-live-suite"
