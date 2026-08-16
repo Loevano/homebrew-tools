@@ -44,7 +44,7 @@ Each cask lives in `Casks/<token>.rb`.
 
 The token should be lowercase and hyphenated:
 
-```text
+```texto
 Room EQ Wizard      -> room-eq-wizard
 RME TotalMix FX     -> totalmix-fx
 Dante Controller    -> dante-controller
