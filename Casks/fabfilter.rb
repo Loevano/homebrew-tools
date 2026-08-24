@@ -20,4 +20,5 @@ cask "fabfilter" do
   depends_on cask: "fabfilter-pro-g"
   depends_on cask: "fabfilter-saturn"
   depends_on cask: "fabfilter-volcano"
+  depends_on cask: "fabfilter-timeless"
 end
